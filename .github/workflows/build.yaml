@@ -19,7 +19,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t hadiasultan/my-python-image:latest .
+          docker build -t hadiasultan/my-python-image:tag .
 
       - name: Login to Docker Hub
         run: |
@@ -27,4 +27,4 @@ jobs:
 
       - name: Push Docker image
         run: |
-          docker hadiasultan/my-python-image:latest
+          docker hadiasultan/my-python-image:tag
