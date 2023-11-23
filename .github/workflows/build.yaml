@@ -27,4 +27,4 @@ jobs:
 
       - name: Push Docker image
         run: |
-          docker hadiasultan/my-python-image:v1.0
+          docker push hadiasultan/my-python-image:v1.0
